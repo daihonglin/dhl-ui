@@ -1,24 +1,15 @@
-# dhl-ui
+CSDN:
 
-## Project setup
-```
-yarn install
-```
+- 本项目仅作为vue组件封装的练习参考
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+- 初始化vue项目
+    vue created demo
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- 安装组件库
+    npm i dhl-ui
 
-### Lints and fixes files
-```
-yarn lint
-```
+- 全局导入
+    import DhlUI form 'dhl-ui'
+    import 'dhlui/lib/dhl.css'
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+    Vue.use(DhlUI)
